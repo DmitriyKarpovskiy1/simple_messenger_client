@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
-  "engines":{
-    "npm": "5.8.0",
-    "node": "10.21.0"
-  },
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.5.3",
@@ -23,8 +19,7 @@
     "semantic-ui-react": "^2.0.1"
   },
   "scripts": {
-    "heroku-postbuild": "npm install",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
